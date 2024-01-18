@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 25, 25);
+    color: white;
+    font-family: sans-serif;
+}
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+.hidden{
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    transform: translateX(0px);
+}
