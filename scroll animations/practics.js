@@ -25,8 +25,3 @@ sections.forEach((el) => observer.observe(el));
 // Options: You can also set some options when creating the observer, like how much of the target needs to be visible before considering it an intersection.
 
 // To put it simply, IntersectionObserver is like a watcher that keeps an eye on specific elements on a webpage. When those elements come into or go out of view, it can alert you, and you can decide what to do in response. This is handy for lazy loading images, infinite scrolling, or other situations where you want to take action based on whether an element is visible or not.
-
-
-
-
-
